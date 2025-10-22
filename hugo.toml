@@ -1,0 +1,4 @@
+baseURL = 'https://www.wangfengxu.com/'
+languageCode = 'en-us'
+title = "wfx's Blog"
+theme = 'fixIt'
