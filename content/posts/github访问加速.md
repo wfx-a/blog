@@ -1,6 +1,8 @@
 +++
 title = 'github访问加速'
 date = 2025-10-21
+categories = ['开发环境'] 
+tags = ['github']
 +++
 
 ## 1. 修改host文件

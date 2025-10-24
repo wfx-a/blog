@@ -1,6 +1,8 @@
 +++
 title = 'hugo静态网页部署到服务器'
 date = 2025-10-18
+categories = ['博客'] 
+tags = ['hugo']
 +++
 
 

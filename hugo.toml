@@ -1,4 +1,140 @@
-baseURL = 'https://www.wangfengxu.com/'
-languageCode = 'en-us'
 title = "wfx's Blog"
-theme = 'fixIt'
+baseURL = "https://www.wangfengxu.com/"
+theme = "fixIt"
+
+# 中文配置
+defaultContentLanguage = "zh-cn"
+languageCode = "zh-CN"
+languageName = "简体中文"
+
+# 目录
+[menu]
+    [[menu.main]]
+        identifier = "archives"
+        parent = ""
+        pre = ""
+        post = ""
+        name = "归档"
+        url = "/archives/"
+        title = ""
+        weight = 1
+
+        [menu.main.params]
+            icon = "fa-solid fa-archive"        # fontawesome icon
+            divided = false
+
+    [[menu.main]]
+        identifier = "categories"
+        parent = ""
+        pre = ""
+        post = ""
+        name = "分类"
+        url = "/categories/"
+        title = ""
+        weight = 2
+
+        [menu.main.params]
+            icon = "fa-solid fa-folder-tree"
+
+    [[menu.main]]
+        identifier = "tags"
+        parent = ""
+        pre = ""
+        post = ""
+        name = "标签"
+        url = "/tags/"
+        title = ""
+        weight = 3
+
+        [menu.main.params]
+            icon = "fa-solid fa-tags"
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    collection = "collections"
+[params]
+    [params.githubCorner]
+        enable = true
+        permalink = "https://github.com/wfx-a"
+        title = "Go to My Git"
+        position = "left"
+    
+    [params.readingProgress]
+        enable = true
+        start = "left"
+        position = "top"
+        reversed = false
+        light = "black"     # 浅色主题进度条颜色
+        dark = "green"      # 深色主题进度条颜色
+        height = "2px"  
+
+    # 文章页面的分享信息设置
+    [params.page.share]
+        enable = true
+        Weibo = true
+        Evernote = true
+        Twitter = false
+        Facebook = false
+
+    # 页面底部信息配置
+    [params.footer]
+        enable = true
+        #  是否显示版权信息
+        copyright = false
+        #  是否显示作者
+        author = true
+        # 网站创立年份  
+        since = 2025
+        #  网站创立时间
+        siteTime = "2025-10-18T16:15:22+08:00"
+        #  是否显示网站内容总字数
+        wordCount = true
+        #  公网安备信息，仅在中国使用（支持 HTML 格式）
+        gov = ""
+        #  ICP 备案信息，仅在中国使用（支持 HTML 格式）
+        icp = ""
+        # 许可协议信息（支持 HTML 格式）
+        license = ''
+        [params.footer.powered]
+            enable = false
+  [params.tagcloud]
+    enable = true
+    min = 14 # 最小字体大小，单位：px
+    max = 32 # 最大字体大小，单位：px
+    peakCount = 10 # 每个标签的最大文章数
+    orderby = "count" # 标签排序方式，可选值：["name", "count"]
+[params.author]
+    name = "wfx"
+    email = ""
+    link = ""
+    avatar = ""
+#  文章页面配置
+  [params.page]
+    #  文章结束标志
+    endFlag = "END"
+    authorAvatar = true
+    license = ''
+    # 是否显示原始 Markdown 文档内容的链接
+    linkToMarkdown = false
+    # FixIt 0.3.0 | 新增 是否显示查看文章源码的链接
+    linkToSource = false
+    # FixIt 0.3.0 | 新增 是否显示编辑文章的链接
+    linkToEdit = false
+    # FixIt 0.3.0 | 新增 是否显示报告文章问题的链接
+    linkToReport = false
+    # FixIt 0.3.20 | 新增 是否显示在 VSCode 中查看文章的链接
+    linkToVscode = false
+
+    [params.header]
+        desktopMode = "sticky"
+        mobileMode = "auto"
+        [params.header.title]
+        logo = ""
+        name = ""
+        pre = ""
+        post = ""
+        typeit = false
+        [params.header.subtitle]
+        name = ""
+        typeit = false
+

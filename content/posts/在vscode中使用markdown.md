@@ -1,6 +1,8 @@
 +++
 title = '在vscode中使用markdown'
 date = 2025-10-18
+categories = ['博客'] 
+tags = ['vscode', 'markdown']
 +++
 
 ## 1. 开箱即用

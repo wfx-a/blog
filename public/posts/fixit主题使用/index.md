@@ -1,7 +1,5 @@
-+++
-title = 'fixit主题使用'
-date = 2025-10-18
-+++
+# Fixit主题使用
+
 
 ## 1. 下载与使用
 
@@ -14,3 +12,10 @@ date = 2025-10-18
 ## 2. 配置
 
 [fixit主题文档](https://fixit.lruihao.cn/zh-cn/)
+
+
+---
+
+> 作者: wfx  
+> URL: http://localhost:1313/posts/fixit%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8/  
+

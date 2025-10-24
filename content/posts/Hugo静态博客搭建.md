@@ -1,6 +1,8 @@
 +++
 title = 'Hugo静态博客搭建'
 date = 2025-10-18
+categories = ['博客'] 
+tags = ['hugo']
 +++
 
 ## 1. 下载hugo，配置环境变量
